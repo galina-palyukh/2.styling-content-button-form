@@ -1,0 +1,22 @@
+.button{
+    background-color: #0f7e96;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    padding: 12px 30px;
+    text-align: center;
+    line-height: 1.15;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.button:hover,
+.button:active,
+.button:focus{
+    background-color: #024f60;
+    border: none;
+    outline: none;
+    color: #fff;
+}

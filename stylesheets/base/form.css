@@ -1,0 +1,94 @@
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="number"],
+input[type="month"],
+input[type="date"],
+input[type="week"],
+input[type="datetime-local"],
+input[type="time"],
+input[type="range"],
+input[type="datetime-local"] {
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    height: 40px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+textarea {
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 187px;
+    width: 100%;
+    resize: none;
+
+}
+
+select{
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    height: 40px;
+    background-color: white;
+    border-radius: 0;
+    display: block;
+
+}
+
+select:first-child{
+    margin-bottom: 20px ;
+}
+
+
+select[name="cars"]{
+    border-radius: 0;
+}
+input.is-error {
+    border: 1px solid #a52727;
+}
+
+input.is-valid {
+    border: 1px solid #409b98;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline: none;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+@media all and (min-width: 768px) {
+    input[type="text"],
+    input[type="password"],
+    input[type="url"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="search"],
+    input[type="number"],
+    input[type="month"],
+    input[type="date"],
+    input[type="week"],
+    input[type="datetime-local"],
+    input[type="time"],
+    input[type="range"],
+    input[type="datetime-local"],
+    textarea {
+        width: 600px;
+    }
+    select{
+        width: 346px;
+
+    }
+
+}

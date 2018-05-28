@@ -1,0 +1,24 @@
+table{
+    border: 1px solid #dfdfdf;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    width: 90%;
+}
+
+td, th{
+    border: solid 1px #dfdfdf;
+    padding: 12px 0 12px 15px;
+}
+
+thead tr,
+tbody tr:nth-child(even){
+    background-color: #f6f6f6;
+}
+
+
+@media all and (min-width: 768px){
+    table{
+        width: 60%;
+    }
+}
